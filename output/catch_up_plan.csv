@@ -1,0 +1,71 @@
+priority,pg,current_owners,health_status,latest_score,gap_description,recommended_action
+1, Prime MD Geriatrics,(none),might loose very less activity,0.0,No allocation,Assign owner(s)
+1, Texas Infectious Disease Institute,(none),at risk,0.0,No allocation,Assign owner(s)
+1,APPLE MD ,(none),Good,0.0,No allocation,Assign owner(s)
+1,"Anibal Avila MA P,C",(none),at risk,0.0,No allocation,Assign owner(s)
+1,Boerne Healthcare Group,(none),very disappointment,0.0,No allocation,Assign owner(s)
+1,Boyer family practice,(none),Fair,0.0,No allocation,Assign owner(s)
+1,CPG - Community Physician Group,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Centrics physician group,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Chickasaw Nation Medical Center,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Clinics of north texas ,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Crescent Infectious Diseases,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Doctor at your service,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Doctors at Home,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Goldstein Alasdair MD,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Internal Medicine Associates OKC,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Jo Wyatt,(none),Fair,0.0,No allocation,Assign owner(s)
+1,KELLUM FAMILY PRACTICE,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Los Cerros,(none),at risk,0.0,No allocation,Assign owner(s)
+1,MDPC,(none),Good,0.0,No allocation,Assign owner(s)
+1,Northeast ProHealth,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Orthopaedic Associates LLC,(none),not called,1.0,No allocation,Assign owner(s)
+1,Orthopaedic Specialists of Massachusetts,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Prima Care,(none),Fair,0.0,No allocation,Assign owner(s)
+1,Primary care of Ada,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Responsive Infectious Diseases Solutions,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Restore Family Medical clinic,(none),at risk,0.0,No allocation,Assign owner(s)
+1,SSM Health shawnee,(none),might loose very less activity,0.0,No allocation,Assign owner(s)
+1,San Antonio Family Physicians,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Southeast Oklahoma Medical Clinic,(none),at risk,0.0,No allocation,Assign owner(s)
+1,TPCH Practice,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Total Family Healthcare,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Triton Health PLLC,(none),at risk,0.0,No allocation,Assign owner(s)
+1,Visiting Practitioners And Palliative Care LLC,(none),very disappointment,0.0,No allocation,Assign owner(s)
+1,"WoundCentrics, LLC",(none),Good,0.0,No allocation,Assign owner(s)
+1,family medical associates,(none),at risk,0.0,No allocation,Assign owner(s)
+1,ortho central,(none),at risk,0.0,No allocation,Assign owner(s)
+1,ssm health bone & joint hospital,(none),might loose very less activity,0.0,No allocation,Assign owner(s)
+2, Americare,Shivi | Susan,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,ACO Health,Rupashi,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,Atrium Housecalls,Pratibha,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,BIDMC,Himaja | Komal | Soumya,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,Best Self,Adika,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Bloom,Anushka | Ishwar | Priti,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,COFMC,Hiya | Mona,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,Care Dimensions,Adrika | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Caring Health,Pratibha,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Covenant Care,Rupashi,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Diverse care clinic,Celine,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,FHCW,Steven | Sukhman,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,Grace at Home,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Hawthorn (brown health),Annaya | Mona | Nikita | Suchitra,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,Health Quality Primary Care,Javeriya | Mimansa,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Healthfirst,Adrika | Sukhman,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,Hyde Park,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Infectious Diseases Consultants of Oklahoma City (IDCOKC),Rupashi | Sathya,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Intracare,Chaitanya,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,New Bedford,Adrika | Mimansa | Sukhman | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Optimized Mobile Practitioners,Nabanita | Shruti,very disappointment,,At risk or low score,Reinforce support / catch up on services
+2,Paragon,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Rupashi | Sowjanya | Sutiksha | Suzanne | Tiisetso,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,Providence Care,Nabanita | RSC | Sara | Shruti,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Resil Claude,Adrika | Sukhman,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,Riverside,Adrika | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Rocky Mountain,Yukta,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,Royal VP,Chaitanya | Devaleena | Javeriya | John | Mahima | Manasvi | Mona | Nikita | Pratibha | Sathya | Sophie | Swastika,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,TTUHSC,Adarsh | Farhaan | Steven,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Trucare,Adrika (Rework) | Afreena | John | Mimansa | Mohsin,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,UT health,Celine | Priti | Shreetika,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,brownfield,Rupashi | Yukta,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,community first,Ask Ekta | Divya | Javeriya | John | Jonathan | Richard | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,housecall MD,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sara | Shivi | Soumya | Sowjanya | Sukhman | Sutiksha | Suzanne | Tiisetso,Fair,0.0,At risk or low score,Reinforce support / catch up on services

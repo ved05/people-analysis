@@ -1,0 +1,71 @@
+pg,assigned_people,pg_count,health_status,latest_score,score_trend,divisional_group,ehr,internal_allocation,single_owner,gap,recommended_action
+ACO Health,Rupashi,1,very disappointment,0.0,Improving,EAST,YES,-,Yes,Yes,Reinforce support / catch up on services
+ Americare,Shivi | Susan,2,Fair,0.0,Improving,CENTRAL,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+"Anibal Avila MA P,C",,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+APPLE MD ,,0,Good,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Atrium Housecalls,Pratibha,1,at risk,0.0,Improving,CENTRAL,YES,-,Yes,Yes,Reinforce support / catch up on services
+Best Self,Adika,1,at risk,0.0,Improving,EAST,YES,Not allocated,Yes,Yes,Reinforce support / catch up on services
+BIDMC,Himaja | Komal | Soumya,3,Fair,0.0,Improving,EAST,NO,-,No,Yes,Reinforce support / catch up on services
+Bloom,Anushka | Ishwar | Priti,3,Fair,0.0,Improving,WEST,NO,-,No,Yes,Reinforce support / catch up on services
+Boerne Healthcare Group,,0,very disappointment,0.0,Improving,CENTRAL,YES,Not allocated,No,Yes,Assign owner(s)
+Boyer family practice,,0,Fair,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+brownfield,Rupashi | Yukta,2,Fair,0.0,Improving,WEST,YES,-,No,Yes,Reinforce support / catch up on services
+Care Dimensions,Adrika | Sukhman,2,Good,0.0,Improving,EAST,YES,DME team,No,Yes,Reinforce support / catch up on services
+Caring Health,Pratibha,1,Good,0.0,Improving,EAST,YES,Not allocated,Yes,Yes,Reinforce support / catch up on services
+Centrics physician group,,0,at risk,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Chickasaw Nation Medical Center,,0,Fair,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Clinics of north texas ,,0,Fair,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+COFMC,Hiya | Mona,2,very disappointment,0.0,Improving,CENTRAL,YES,Automated,No,Yes,Reinforce support / catch up on services
+community first,Ask Ekta | Divya | Javeriya | John | Jonathan | Richard | Tiisetso,7,at risk,0.0,Improving,CENTRAL,YES,-,No,Yes,Reinforce support / catch up on services
+Covenant Care,Rupashi,1,Good,0.0,Improving,EAST CENTRAL,YES,Srubhi,Yes,Yes,Reinforce support / catch up on services
+CPG - Community Physician Group,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Crescent Infectious Diseases,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Diverse care clinic,Celine,1,Fair,0.0,Improving,CENTRAL,YES,-,Yes,Yes,Reinforce support / catch up on services
+Doctor at your service,,0,at risk,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Doctors at Home,,0,Fair,0.0,Improving,CENTRAL,YES,Automated,No,Yes,Assign owner(s)
+family medical associates,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+FHCW,Steven | Sukhman,2,Fair,0.0,Improving,EAST,NO,-,No,Yes,Reinforce support / catch up on services
+Goldstein Alasdair MD,,0,Fair,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Grace at Home,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,12,Good,0.0,Improving,EAST CENTRAL,YES,"Vedant,Anushka",No,Yes,Reinforce support / catch up on services
+Hawthorn (brown health),Annaya | Mona | Nikita | Suchitra,4,Fair,0.0,Improving,EAST,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+Health Quality Primary Care,Javeriya | Mimansa,2,at risk,0.0,Improving,EAST,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+Healthfirst,Adrika | Sukhman,2,very disappointment,0.0,Improving,EAST,YES,-,No,Yes,Reinforce support / catch up on services
+housecall MD,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sara | Shivi | Soumya | Sowjanya | Sukhman | Sutiksha | Suzanne | Tiisetso,16,Fair,0.0,Improving,WEST,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+Hyde Park,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,12,at risk,0.0,Improving,EAST,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+Infectious Diseases Consultants of Oklahoma City (IDCOKC),Rupashi | Sathya,2,Good,0.0,Improving,CENTRAL,YES,Legacy Team,No,Yes,Reinforce support / catch up on services
+Internal Medicine Associates OKC,,0,Fair,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Intracare,Chaitanya,1,Fair,0.0,Improving,WEST,YES,Not allocated,Yes,Yes,Reinforce support / catch up on services
+Jo Wyatt,,0,Fair,0.0,Improving,WEST,NO,-,No,Yes,Assign owner(s)
+KELLUM FAMILY PRACTICE,,0,Fair,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Los Cerros,,0,at risk,0.0,Improving,WEST,Not working currently,-,No,Yes,Assign owner(s)
+MDPC,,0,Good,0.0,Improving,EAST CENTRAL,YES,Not allocated,No,Yes,Assign owner(s)
+New Bedford,Adrika | Mimansa | Sukhman | Tiisetso,4,at risk,0.0,Improving,EAST,YES,nan,No,Yes,Reinforce support / catch up on services
+Northeast ProHealth,,0,at risk,0.0,Improving,CENTRAL,Not Working Currently,-,No,Yes,Assign owner(s)
+Optimized Mobile Practitioners,Nabanita | Shruti,2,very disappointment,,Improving,CENTRAL,YES,-,No,Yes,Reinforce support / catch up on services
+ortho central,,0,at risk,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Orthopaedic Associates LLC,,0,not called,1.0,Stable,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Orthopaedic Specialists of Massachusetts,,0,at risk,0.0,Improving,EAST,YES,-,No,Yes,Assign owner(s)
+Paragon,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Rupashi | Sowjanya | Sutiksha | Suzanne | Tiisetso,13,very disappointment,0.0,Improving,WEST,YES,Maidlyn Team,No,Yes,Reinforce support / catch up on services
+Prima Care,,0,Fair,0.0,Improving,EAST,YES,Legacy Team,No,Yes,Assign owner(s)
+Primary care of Ada,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+ Prime MD Geriatrics,,0,might loose very less activity,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+Providence Care,Nabanita | RSC | Sara | Shruti,4,at risk,0.0,Improving,EAST,YES,-,No,Yes,Reinforce support / catch up on services
+Resil Claude,Adrika | Sukhman,2,Fair,0.0,Improving,EAST,YES,Frank,No,Yes,Reinforce support / catch up on services
+Responsive Infectious Diseases Solutions,,0,at risk,0.0,Improving,CENTRAL,Not Working Currently,-,No,Yes,Assign owner(s)
+Restore Family Medical clinic,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Riverside,Adrika | Sukhman,2,Good,0.0,Improving,EAST,YES,Not allocated,No,Yes,Reinforce support / catch up on services
+Rocky Mountain,Yukta,1,Fair,0.0,Improving,WEST,YES,-,Yes,Yes,Reinforce support / catch up on services
+Royal VP,Chaitanya | Devaleena | Javeriya | John | Mahima | Manasvi | Mona | Nikita | Pratibha | Sathya | Sophie | Swastika,12,very disappointment,0.0,Improving,CENTRAL,YES,-,No,Yes,Reinforce support / catch up on services
+San Antonio Family Physicians,,0,at risk,0.0,Improving,CENTRAL,YES,Madilyn Team,No,Yes,Assign owner(s)
+Southeast Oklahoma Medical Clinic,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+ssm health bone & joint hospital,,0,might loose very less activity,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+SSM Health shawnee,,0,might loose very less activity,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+ Texas Infectious Disease Institute,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Total Family Healthcare,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+TPCH Practice,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Triton Health PLLC,,0,at risk,0.0,Improving,CENTRAL,NO,-,No,Yes,Assign owner(s)
+Trucare,Adrika (Rework) | Afreena | John | Mimansa | Mohsin,5,Good,0.0,Improving,EAST,YES,-,No,Yes,Reinforce support / catch up on services
+TTUHSC,Adarsh | Farhaan | Steven,3,at risk,0.0,Stable,WEST,NO,-,No,Yes,Reinforce support / catch up on services
+UT health,Celine | Priti | Shreetika,3,at risk,0.0,Improving,CENTRAL,YES,-,No,Yes,Reinforce support / catch up on services
+Visiting Practitioners And Palliative Care LLC,,0,very disappointment,0.0,Improving,CENTRAL,YES,-,No,Yes,Assign owner(s)
+"WoundCentrics, LLC",,0,Good,0.0,Improving,CENTRAL,YES,Automated,No,Yes,Assign owner(s)
