@@ -39,28 +39,28 @@ priority,pg,current_owners,health_status,latest_score,gap_description,recommende
 2, Americare,Shivi | Susan,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,ACO Health,Rupashi,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
 2,Atrium Housecalls,Pratibha,at risk,0.0,At risk or low score,Reinforce support / catch up on services
-2,BIDMC,Baistami | Himaja | Komal | No EHR | Soumya,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,BIDMC,Himaja | Komal | Soumya,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,Best Self,Adika,at risk,0.0,At risk or low score,Reinforce support / catch up on services
 2,Bloom,Anushka | Ishwar | Priti,Fair,0.0,At risk or low score,Reinforce support / catch up on services
-2,COFMC,Hiya | Mona,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
-2,Care Dimensions,Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,COFMC,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
+2,Care Dimensions,Adrika | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Caring Health,Adika | Adrika | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Covenant Care,Rupashi,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Diverse care clinic,Celine,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,FHCW,Steven | Sukhman,Fair,0.0,At risk or low score,Reinforce support / catch up on services
-2,Grace at Home,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Grace at Home,Adarsh | Aditya | Baistami | Cheruthan | Devaleena | Himaja | Javeriya | John | Komal | Madhur | Manasvi | Sakshi,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Hawthorn (brown health),Annaya | Mona | Nikita | Suchitra,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,Health Quality Primary Care,Javeriya | Mimansa,at risk,0.0,At risk or low score,Reinforce support / catch up on services
 2,Healthfirst,Adrika | Sukhman,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
-2,Hyde Park,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
+2,Hyde Park,Devleena,at risk,0.0,At risk or low score,Reinforce support / catch up on services
 2,Infectious Diseases Consultants of Oklahoma City (IDCOKC),Rupashi | Sathya,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Intracare,Chaitanya,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,New Bedford,Adrika | Mimansa | Sukhman | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
-2,Optimized Mobile Practitioners,Manasvi,very disappointment,,At risk or low score,Reinforce support / catch up on services
+2,Optimized Mobile Practitioners,Nabanita | Shruti,very disappointment,,At risk or low score,Reinforce support / catch up on services
 2,Paragon,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Rupashi | Sowjanya | Sutiksha | Suzanne | Tiisetso,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
 2,Providence Care,Nabanita | RSC | Sara | Shruti,at risk,0.0,At risk or low score,Reinforce support / catch up on services
 2,Resil Claude,Adrika | Sukhman,Fair,0.0,At risk or low score,Reinforce support / catch up on services
-2,Riverside,Adrika | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
+2,Riverside,Adrika | Baistami | Sukhman,Good,0.0,At risk or low score,Reinforce support / catch up on services
 2,Rocky Mountain,Ishwar | Priti | Sahmika | Simran,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,Royal VP,Chaitanya | Devaleena | Javeriya | John | Mahima | Manasvi | Mona | Nikita | Pratibha | Sathya | Sophie | Swastika,very disappointment,0.0,At risk or low score,Reinforce support / catch up on services
 2,TTUHSC,Adarsh | Farhaan | Steven,at risk,0.0,At risk or low score,Reinforce support / catch up on services
@@ -68,4 +68,4 @@ priority,pg,current_owners,health_status,latest_score,gap_description,recommende
 2,UT health,Celine | Priti | Shreetika,at risk,0.0,At risk or low score,Reinforce support / catch up on services
 2,brownfield,Rupashi | Yukta,Fair,0.0,At risk or low score,Reinforce support / catch up on services
 2,community first,Ask Ekta | Divya | Javeriya | John | Jonathan | Richard | Tiisetso,at risk,0.0,At risk or low score,Reinforce support / catch up on services
-2,housecall MD,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sara | Shivi | Soumya | Sowjanya | Sukhman | Sutiksha | Suzanne | Tiisetso,Fair,0.0,At risk or low score,Reinforce support / catch up on services
+2,housecall MD,Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso,Fair,0.0,At risk or low score,Reinforce support / catch up on services

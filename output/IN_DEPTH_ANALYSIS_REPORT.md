@@ -100,17 +100,17 @@
 | APPLE MD  |  | Good | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Atrium Housecalls | Pratibha | at risk | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
 | Best Self | Adika | at risk | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
-| BIDMC | Baistami ;  Himaja ;  Komal ;  No EHR ; ... | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
+| BIDMC | Himaja ;  Komal ;  Soumya | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Bloom | Anushka ;  Ishwar ;  Priti | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Boerne Healthcare Group |  | very disappointment | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Boyer family practice |  | Fair | 0.0 | Improving | No | Yes | Assign owner(s) |
 | brownfield | Rupashi ;  Yukta | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
-| Care Dimensions | Sukhman | Good | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
+| Care Dimensions | Adrika ;  Sukhman | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Caring Health | Adika ;  Adrika ;  Sukhman | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Centrics physician group |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Chickasaw Nation Medical Center |  | Fair | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Clinics of north texas  |  | Fair | 0.0 | Improving | No | Yes | Assign owner(s) |
-| COFMC | Hiya ;  Mona | very disappointment | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
+| COFMC | Ananya ;  Devleena ;  Javeriya ;  John M... | very disappointment | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | community first | Ask Ekta ;  Divya ;  Javeriya ;  John ; ... | at risk | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Covenant Care | Rupashi | Good | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
 | CPG - Community Physician Group |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
@@ -121,12 +121,12 @@
 | family medical associates |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
 | FHCW | Steven ;  Sukhman | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Goldstein Alasdair MD |  | Fair | 0.0 | Improving | No | Yes | Assign owner(s) |
-| Grace at Home | Ananya ;  Devleena ;  Javeriya ;  John M... | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
+| Grace at Home | Adarsh ;  Aditya ;  Baistami ;  Cherutha... | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Hawthorn (brown health) | Annaya ;  Mona ;  Nikita ;  Suchitra | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Health Quality Primary Care | Javeriya ;  Mimansa | at risk | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Healthfirst | Adrika ;  Sukhman | very disappointment | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | housecall MD | Ananya ;  Devleena ;  Javeriya ;  John M... | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
-| Hyde Park | Ananya ;  Devleena ;  Javeriya ;  John M... | at risk | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
+| Hyde Park | Devleena | at risk | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
 | Infectious Diseases Consultants of  | Rupashi ;  Sathya | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Internal Medicine Associates OKC |  | Fair | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Intracare | Chaitanya | Fair | 0.0 | Improving | Yes | Yes | Reinforce support / catch up on services |
@@ -136,7 +136,7 @@
 | MDPC |  | Good | 0.0 | Improving | No | Yes | Assign owner(s) |
 | New Bedford | Adrika ;  Mimansa ;  Sukhman ;  Tiisetso | at risk | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Northeast ProHealth |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
-| Optimized Mobile Practitioners | Manasvi | very disappointment | nan | Improving | Yes | Yes | Reinforce support / catch up on services |
+| Optimized Mobile Practitioners | Nabanita ;  Shruti | very disappointment | nan | Improving | No | Yes | Reinforce support / catch up on services |
 | ortho central |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Orthopaedic Associates LLC |  | not called | 1.0 | Stable | No | Yes | Assign owner(s) |
 | Orthopaedic Specialists of Massachu |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
@@ -148,7 +148,7 @@
 | Resil Claude | Adrika ;  Sukhman | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Responsive Infectious Diseases Solu |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
 | Restore Family Medical clinic |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
-| Riverside | Adrika ;  Sukhman | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
+| Riverside | Adrika ;  Baistami ;  Sukhman | Good | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Rocky Mountain | Ishwar ;  Priti ;  Sahmika ;  Simran | Fair | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | Royal VP | Chaitanya ;  Devaleena ;  Javeriya ;  Jo... | very disappointment | 0.0 | Improving | No | Yes | Reinforce support / catch up on services |
 | San Antonio Family Physicians |  | at risk | 0.0 | Improving | No | Yes | Assign owner(s) |
@@ -165,7 +165,7 @@
 | Visiting Practitioners And Palliati |  | very disappointment | 0.0 | Improving | No | Yes | Assign owner(s) |
 | WoundCentrics, LLC |  | Good | 0.0 | Improving | No | Yes | Assign owner(s) |
 
-- **Single-owner PGs:** 8 – consider backup coverage.
+- **Single-owner PGs:** 7 – consider backup coverage.
 
 ---
 
@@ -213,28 +213,28 @@
 | 2 |  Americare | Shivi | Susan | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | ACO Health | Rupashi | very disappointment | At risk or low score | Reinforce support / catch up on services |
 | 2 | Atrium Housecalls | Pratibha | at risk | At risk or low score | Reinforce support / catch up on services |
-| 2 | BIDMC | Baistami | Himaja | Komal | No EHR | Soumya | Fair | At risk or low score | Reinforce support / catch up on services |
+| 2 | BIDMC | Himaja | Komal | Soumya | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | Best Self | Adika | at risk | At risk or low score | Reinforce support / catch up on services |
 | 2 | Bloom | Anushka | Ishwar | Priti | Fair | At risk or low score | Reinforce support / catch up on services |
-| 2 | COFMC | Hiya | Mona | very disappointment | At risk or low score | Reinforce support / catch up on services |
-| 2 | Care Dimensions | Sukhman | Good | At risk or low score | Reinforce support / catch up on services |
+| 2 | COFMC | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso | very disappointment | At risk or low score | Reinforce support / catch up on services |
+| 2 | Care Dimensions | Adrika | Sukhman | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Caring Health | Adika | Adrika | Sukhman | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Covenant Care | Rupashi | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Diverse care clinic | Celine | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | FHCW | Steven | Sukhman | Fair | At risk or low score | Reinforce support / catch up on services |
-| 2 | Grace at Home | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso | Good | At risk or low score | Reinforce support / catch up on services |
+| 2 | Grace at Home | Adarsh | Aditya | Baistami | Cheruthan | Devaleena | Himaja | Javeriya | John | Komal | Madhur | Manasvi | Sakshi | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Hawthorn (brown health) | Annaya | Mona | Nikita | Suchitra | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | Health Quality Primary Care | Javeriya | Mimansa | at risk | At risk or low score | Reinforce support / catch up on services |
 | 2 | Healthfirst | Adrika | Sukhman | very disappointment | At risk or low score | Reinforce support / catch up on services |
-| 2 | Hyde Park | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso | at risk | At risk or low score | Reinforce support / catch up on services |
+| 2 | Hyde Park | Devleena | at risk | At risk or low score | Reinforce support / catch up on services |
 | 2 | Infectious Diseases Consultants of Oklahoma City (IDCOKC) | Rupashi | Sathya | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Intracare | Chaitanya | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | New Bedford | Adrika | Mimansa | Sukhman | Tiisetso | at risk | At risk or low score | Reinforce support / catch up on services |
-| 2 | Optimized Mobile Practitioners | Manasvi | very disappointment | At risk or low score | Reinforce support / catch up on services |
+| 2 | Optimized Mobile Practitioners | Nabanita | Shruti | very disappointment | At risk or low score | Reinforce support / catch up on services |
 | 2 | Paragon | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Rupashi | Sowjanya | Sutiksha | Suzanne | Tiisetso | very disappointment | At risk or low score | Reinforce support / catch up on services |
 | 2 | Providence Care | Nabanita | RSC | Sara | Shruti | at risk | At risk or low score | Reinforce support / catch up on services |
 | 2 | Resil Claude | Adrika | Sukhman | Fair | At risk or low score | Reinforce support / catch up on services |
-| 2 | Riverside | Adrika | Sukhman | Good | At risk or low score | Reinforce support / catch up on services |
+| 2 | Riverside | Adrika | Baistami | Sukhman | Good | At risk or low score | Reinforce support / catch up on services |
 | 2 | Rocky Mountain | Ishwar | Priti | Sahmika | Simran | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | Royal VP | Chaitanya | Devaleena | Javeriya | John | Mahima | Manasvi | Mona | Nikita | Pratibha | Sathya | Sophie | Swastika | very disappointment | At risk or low score | Reinforce support / catch up on services |
 | 2 | TTUHSC | Adarsh | Farhaan | Steven | at risk | At risk or low score | Reinforce support / catch up on services |
@@ -242,7 +242,7 @@
 | 2 | UT health | Celine | Priti | Shreetika | at risk | At risk or low score | Reinforce support / catch up on services |
 | 2 | brownfield | Rupashi | Yukta | Fair | At risk or low score | Reinforce support / catch up on services |
 | 2 | community first | Ask Ekta | Divya | Javeriya | John | Jonathan | Richard | Tiisetso | at risk | At risk or low score | Reinforce support / catch up on services |
-| 2 | housecall MD | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sara | Shivi | Soumya | Sowjanya | Sukhman | Sutiksha | Suzanne | Tiisetso | Fair | At risk or low score | Reinforce support / catch up on services |
+| 2 | housecall MD | Ananya | Devleena | Javeriya | John Mithi | Johnathan | Madhur | Manasvi | Priti | Sowjanya | Sutiksha | Suzanne | Tiisetso | Fair | At risk or low score | Reinforce support / catch up on services |
 
 ---
 
@@ -377,8 +377,8 @@ Highest priority for adding backup or reinforcing support.
 | Atrium Housecalls | Pratibha | at risk | 0.0 | Add backup owner; reinforce support |
 | Best Self | Adika | at risk | 0.0 | Add backup owner; reinforce support |
 | Diverse care clinic | Celine | Fair | 0.0 | Add backup owner; reinforce support |
+| Hyde Park | Devleena | at risk | 0.0 | Add backup owner; reinforce support |
 | Intracare | Chaitanya | Fair | 0.0 | Add backup owner; reinforce support |
-| Optimized Mobile Practitioners | Manasvi | very disappointment | nan | Add backup owner; reinforce support |
 
 ---
 
