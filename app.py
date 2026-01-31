@@ -25,7 +25,12 @@ def main():
     score_history_path = os.path.join(OUTPUT_DIR, "score_history_last6.csv")
 
     if not os.path.exists(OUTPUT_DIR) or not os.path.exists(people_path):
-        st.warning("Run **analysis.py** first to generate output files in `output/`.")
+        st.warning("No analysis output yet. Run **analysis.py** locally with your data files to generate `output/`.")
+        st.info(
+            "**Deployed app (e.g. Streamlit Cloud):** Data files are not in the repo. "
+            "Add the Tracker and USA report Excel files to the project folder, run `python analysis.py` locally, "
+            "then either push the `output/` folder or run this app locally (`streamlit run app.py`)."
+        )
         if st.button("Run analysis now"):
             import subprocess
             result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR)

@@ -14,10 +14,11 @@ except ImportError:
     subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas", "openpyxl", "-q"])
     import pandas as pd
 
-TRACKER_PATH = r"c:\Users\catwa\Desktop\people\Copy of Divisional Meeting Updates Tracker  .xlsx"
-USA_REPORT_PATH = r"c:\Users\catwa\Desktop\people\Final USA report. Scores (4).xlsx"
-OUTPUT_DIR = r"c:\Users\catwa\Desktop\people\output"
-ADDITIONAL_PEOPLE_PATH = os.path.join(os.path.dirname(TRACKER_PATH), "additional_people.csv")
+_SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+TRACKER_PATH = os.path.join(_SCRIPT_DIR, "Copy of Divisional Meeting Updates Tracker  .xlsx")
+USA_REPORT_PATH = os.path.join(_SCRIPT_DIR, "Final USA report. Scores (4).xlsx")
+OUTPUT_DIR = os.path.join(_SCRIPT_DIR, "output")
+ADDITIONAL_PEOPLE_PATH = os.path.join(_SCRIPT_DIR, "additional_people.csv")
 
 # PG/client names to exclude when treating a cell as a "person" name
 EXCLUDE_PERSON = {
@@ -455,6 +456,18 @@ def write_in_depth_report(df_people, df_pg, df_catch, people_with_capacity, no_a
 # ---------------------------------------------------------------------------
 
 def run_analysis():
+    missing = []
+    if not os.path.isfile(TRACKER_PATH):
+        missing.append("Copy of Divisional Meeting Updates Tracker  .xlsx")
+    if not os.path.isfile(USA_REPORT_PATH):
+        missing.append("Final USA report. Scores (4).xlsx")
+    if missing:
+        print("Missing required data files. Add them to the project folder and run again:", file=sys.stderr)
+        for m in missing:
+            print("  -", m, file=sys.stderr)
+        print("(Data files are not in the repo for privacy. Run analysis locally with your files.)", file=sys.stderr)
+        sys.exit(1)
+
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
     print("Loading Tracker: person–PG assignments...")
