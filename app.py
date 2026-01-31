@@ -25,21 +25,32 @@ def main():
     score_history_path = os.path.join(OUTPUT_DIR, "score_history_last6.csv")
 
     if not os.path.exists(OUTPUT_DIR) or not os.path.exists(people_path):
-        st.warning("No analysis output yet. Run **analysis.py** locally with your data files to generate `output/`.")
-        st.info(
-            "**Deployed app (e.g. Streamlit Cloud):** Data files are not in the repo. "
-            "Add the Tracker and USA report Excel files to the project folder, run `python analysis.py` locally, "
-            "then either push the `output/` folder or run this app locally (`streamlit run app.py`)."
-        )
-        if st.button("Run analysis now"):
-            import subprocess
-            result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR)
+        import glob
+        tracker_candidates = glob.glob(os.path.join(PROJECT_DIR, "Copy of Divisional Meeting Updates Tracker*.xlsx"))
+        usa_candidates = glob.glob(os.path.join(PROJECT_DIR, "Final USA report*.xlsx"))
+        data_ready = bool(tracker_candidates and usa_candidates)
+        if data_ready and st.session_state.get("_analysis_auto_run") is None:
+            st.session_state["_analysis_auto_run"] = True
+            with st.spinner("Running analysis (first load)..."):
+                import subprocess
+                result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR, timeout=120)
             if result.returncode == 0:
-                st.success("Analysis complete. Refreshing...")
                 st.rerun()
             else:
-                st.error(result.stderr or "Analysis failed.")
-        return
+                st.session_state["_analysis_auto_run"] = False
+                if result.stderr:
+                    st.error(result.stderr)
+        if not os.path.exists(OUTPUT_DIR) or not os.path.exists(people_path):
+            st.warning("No analysis output yet. Data files found: run analysis to generate `output/`." if data_ready else "No analysis output yet. Add Tracker and USA report Excel files, then run analysis.")
+            if st.button("Run analysis now"):
+                import subprocess
+                result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR)
+                if result.returncode == 0:
+                    st.success("Analysis complete. Refreshing...")
+                    st.rerun()
+                else:
+                    st.error(result.stderr or "Analysis failed.")
+            return
 
     # Sidebar: Refresh data (run analysis so updates to Tracker/USA report show for everyone)
     with st.sidebar:

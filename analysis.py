@@ -19,13 +19,14 @@ _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_DIR = os.path.join(_SCRIPT_DIR, "output")
 ADDITIONAL_PEOPLE_PATH = os.path.join(_SCRIPT_DIR, "additional_people.csv")
 
-def _resolve_data_file(glob_pattern: str, fallback_name: str):
+def _resolve_data_file(base_dir: str, glob_pattern: str, fallback_name: str):
     """Resolve path to data file; allow slight name differences (e.g. spacing before .xlsx)."""
-    candidates = glob.glob(os.path.join(_SCRIPT_DIR, glob_pattern))
-    return candidates[0] if candidates else os.path.join(_SCRIPT_DIR, fallback_name)
+    candidates = glob.glob(os.path.join(base_dir, glob_pattern))
+    return candidates[0] if candidates else os.path.join(base_dir, fallback_name)
 
-TRACKER_PATH = _resolve_data_file("Copy of Divisional Meeting Updates Tracker*.xlsx", "Copy of Divisional Meeting Updates Tracker  .xlsx")
-USA_REPORT_PATH = _resolve_data_file("Final USA report*.xlsx", "Final USA report. Scores (4).xlsx")
+# Resolve from script dir by default (e.g. running locally)
+TRACKER_PATH = _resolve_data_file(_SCRIPT_DIR, "Copy of Divisional Meeting Updates Tracker*.xlsx", "Copy of Divisional Meeting Updates Tracker  .xlsx")
+USA_REPORT_PATH = _resolve_data_file(_SCRIPT_DIR, "Final USA report*.xlsx", "Final USA report. Scores (4).xlsx")
 
 # PG/client names to exclude when treating a cell as a "person" name
 EXCLUDE_PERSON = {
@@ -463,6 +464,13 @@ def write_in_depth_report(df_people, df_pg, df_catch, people_with_capacity, no_a
 # ---------------------------------------------------------------------------
 
 def run_analysis():
+    global TRACKER_PATH, USA_REPORT_PATH, OUTPUT_DIR
+    # When run as subprocess (e.g. from Streamlit), cwd is set to project dir – resolve from there
+    base_dir = os.getcwd()
+    TRACKER_PATH = _resolve_data_file(base_dir, "Copy of Divisional Meeting Updates Tracker*.xlsx", "Copy of Divisional Meeting Updates Tracker  .xlsx")
+    USA_REPORT_PATH = _resolve_data_file(base_dir, "Final USA report*.xlsx", "Final USA report. Scores (4).xlsx")
+    OUTPUT_DIR = os.path.join(base_dir, "output")
+
     missing = []
     if not os.path.isfile(TRACKER_PATH):
         missing.append("Copy of Divisional Meeting Updates Tracker  .xlsx")
