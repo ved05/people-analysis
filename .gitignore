@@ -23,5 +23,5 @@ Thumbs.db
 # Copy of Divisional Meeting Updates Tracker  .xlsx
 additional_people.csv
 
-# Generated output (recreate with: python analysis.py)
-output/
+# Generated output – now in repo so deployed app has data (run analysis locally and commit to refresh)
+# output/
