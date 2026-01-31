@@ -5,6 +5,7 @@ Outputs: people_summary, pg_summary, catch_up_plan (CSV + console).
 import sys
 import re
 import os
+import glob
 from collections import defaultdict
 
 try:
@@ -15,10 +16,16 @@ except ImportError:
     import pandas as pd
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-TRACKER_PATH = os.path.join(_SCRIPT_DIR, "Copy of Divisional Meeting Updates Tracker  .xlsx")
-USA_REPORT_PATH = os.path.join(_SCRIPT_DIR, "Final USA report. Scores (4).xlsx")
 OUTPUT_DIR = os.path.join(_SCRIPT_DIR, "output")
 ADDITIONAL_PEOPLE_PATH = os.path.join(_SCRIPT_DIR, "additional_people.csv")
+
+def _resolve_data_file(glob_pattern: str, fallback_name: str):
+    """Resolve path to data file; allow slight name differences (e.g. spacing before .xlsx)."""
+    candidates = glob.glob(os.path.join(_SCRIPT_DIR, glob_pattern))
+    return candidates[0] if candidates else os.path.join(_SCRIPT_DIR, fallback_name)
+
+TRACKER_PATH = _resolve_data_file("Copy of Divisional Meeting Updates Tracker*.xlsx", "Copy of Divisional Meeting Updates Tracker  .xlsx")
+USA_REPORT_PATH = _resolve_data_file("Final USA report*.xlsx", "Final USA report. Scores (4).xlsx")
 
 # PG/client names to exclude when treating a cell as a "person" name
 EXCLUDE_PERSON = {
