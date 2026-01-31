@@ -18,5 +18,10 @@ env/
 .DS_Store
 Thumbs.db
 
-# Optional: uncomment to avoid committing generated output
-# output/
+# Source data (confidential – do not push)
+Final USA report. Scores (4).xlsx
+Copy of Divisional Meeting Updates Tracker  .xlsx
+additional_people.csv
+
+# Generated output (recreate with: python analysis.py)
+output/
