@@ -463,10 +463,10 @@ def write_in_depth_report(df_people, df_pg, df_catch, people_with_capacity, no_a
 # BUILD SUMMARY & GAP ANALYSIS
 # ---------------------------------------------------------------------------
 
-def run_analysis():
+def run_analysis(base_dir=None):
+    """Run full analysis. If base_dir is set (e.g. by Streamlit app), use it so output path matches the app."""
     global TRACKER_PATH, USA_REPORT_PATH, OUTPUT_DIR
-    # When run as subprocess (e.g. from Streamlit), cwd is set to project dir – resolve from there
-    base_dir = os.getcwd()
+    base_dir = base_dir if base_dir is not None and os.path.isdir(base_dir) else os.getcwd()
     TRACKER_PATH = _resolve_data_file(base_dir, "Copy of Divisional Meeting Updates Tracker*.xlsx", "Copy of Divisional Meeting Updates Tracker  .xlsx")
     USA_REPORT_PATH = _resolve_data_file(base_dir, "Final USA report*.xlsx", "Final USA report. Scores (4).xlsx")
     OUTPUT_DIR = os.path.join(base_dir, "output")

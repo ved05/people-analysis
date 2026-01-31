@@ -7,42 +7,56 @@ import os
 import streamlit as st
 from datetime import datetime
 
-OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+OUTPUT_DIR = os.path.join(PROJECT_DIR, "output")
+# Fallback when app dir is read-only (e.g. Streamlit Cloud): read from /tmp
+OUTPUT_DIR_FALLBACK = "/tmp/people-analysis/output"
 
 def _run_analysis_in_process():
-    """Run analysis in the same process so output is written where the app reads it (fixes Streamlit Cloud)."""
+    """Run analysis in the same process; pass PROJECT_DIR so output is written where the app reads it."""
     import io
     import sys
-    old_cwd = os.getcwd()
     old_stdout, old_stderr = sys.stdout, sys.stderr
     try:
-        os.chdir(PROJECT_DIR)
         sys.stdout, sys.stderr = io.StringIO(), io.StringIO()
         import analysis
-        analysis.run_analysis()
-        return True, None
+        analysis.run_analysis(base_dir=PROJECT_DIR)
+        out_path = os.path.join(PROJECT_DIR, "output", "people_summary.csv")
+        if os.path.isfile(out_path):
+            return True, None
+        # App dir may be read-only on Streamlit Cloud – write to /tmp and app will read from there
+        os.makedirs("/tmp/people-analysis", exist_ok=True)
+        analysis.run_analysis(base_dir="/tmp/people-analysis")
+        fallback_path = os.path.join(OUTPUT_DIR_FALLBACK, "people_summary.csv")
+        if os.path.isfile(fallback_path):
+            return True, None
+        return False, f"Output not found at {out_path} or {fallback_path} (app dir may be read-only)."
     except Exception as e:
         return False, str(e)
     finally:
-        os.chdir(old_cwd)
         sys.stdout, sys.stderr = old_stdout, old_stderr
 
 def main():
     st.set_page_config(page_title="People & PG Analysis", layout="wide")
     st.title("People & PG Services – Catch-up Analysis")
 
-    people_path = os.path.join(OUTPUT_DIR, "people_summary.csv")
-    pg_path = os.path.join(OUTPUT_DIR, "pg_summary.csv")
-    catch_path = os.path.join(OUTPUT_DIR, "catch_up_plan.csv")
-    capacity_path = os.path.join(OUTPUT_DIR, "people_with_capacity.csv")
-    team_roster_path = os.path.join(OUTPUT_DIR, "team_roster.csv")
-    suggested_path = os.path.join(OUTPUT_DIR, "suggested_assignments.csv")
-    double_risk_path = os.path.join(OUTPUT_DIR, "double_risk_pgs.csv")
-    div_health_path = os.path.join(OUTPUT_DIR, "division_health_crosstab.csv")
-    score_history_path = os.path.join(OUTPUT_DIR, "score_history_last6.csv")
+    # Use fallback output dir when app dir is read-only (e.g. Streamlit Cloud)
+    if os.path.isfile(os.path.join(OUTPUT_DIR_FALLBACK, "people_summary.csv")):
+        out_dir = OUTPUT_DIR_FALLBACK
+    else:
+        out_dir = OUTPUT_DIR
 
-    if not os.path.exists(OUTPUT_DIR) or not os.path.exists(people_path):
+    people_path = os.path.join(out_dir, "people_summary.csv")
+    pg_path = os.path.join(out_dir, "pg_summary.csv")
+    catch_path = os.path.join(out_dir, "catch_up_plan.csv")
+    capacity_path = os.path.join(out_dir, "people_with_capacity.csv")
+    team_roster_path = os.path.join(out_dir, "team_roster.csv")
+    suggested_path = os.path.join(out_dir, "suggested_assignments.csv")
+    double_risk_path = os.path.join(out_dir, "double_risk_pgs.csv")
+    div_health_path = os.path.join(out_dir, "division_health_crosstab.csv")
+    score_history_path = os.path.join(out_dir, "score_history_last6.csv")
+
+    if not os.path.exists(out_dir) or not os.path.exists(people_path):
         import glob
         tracker_candidates = glob.glob(os.path.join(PROJECT_DIR, "Copy of Divisional Meeting Updates Tracker*.xlsx"))
         usa_candidates = glob.glob(os.path.join(PROJECT_DIR, "Final USA report*.xlsx"))
