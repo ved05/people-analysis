@@ -18,9 +18,9 @@ env/
 .DS_Store
 Thumbs.db
 
-# Source data (confidential – do not push)
-Final USA report. Scores (4).xlsx
-Copy of Divisional Meeting Updates Tracker  .xlsx
+# Source data (optional – uncomment to keep private)
+# Final USA report. Scores (4).xlsx
+# Copy of Divisional Meeting Updates Tracker  .xlsx
 additional_people.csv
 
 # Generated output (recreate with: python analysis.py)
