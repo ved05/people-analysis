@@ -472,7 +472,6 @@ def run_analysis():
         print("Missing required data files. Add them to the project folder and run again:", file=sys.stderr)
         for m in missing:
             print("  -", m, file=sys.stderr)
-        print("(Data files are not in the repo for privacy. Run analysis locally with your files.)", file=sys.stderr)
         sys.exit(1)
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
