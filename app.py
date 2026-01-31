@@ -10,6 +10,24 @@ from datetime import datetime
 OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 
+def _run_analysis_in_process():
+    """Run analysis in the same process so output is written where the app reads it (fixes Streamlit Cloud)."""
+    import io
+    import sys
+    old_cwd = os.getcwd()
+    old_stdout, old_stderr = sys.stdout, sys.stderr
+    try:
+        os.chdir(PROJECT_DIR)
+        sys.stdout, sys.stderr = io.StringIO(), io.StringIO()
+        import analysis
+        analysis.run_analysis()
+        return True, None
+    except Exception as e:
+        return False, str(e)
+    finally:
+        os.chdir(old_cwd)
+        sys.stdout, sys.stderr = old_stdout, old_stderr
+
 def main():
     st.set_page_config(page_title="People & PG Analysis", layout="wide")
     st.title("People & PG Services – Catch-up Analysis")
@@ -32,24 +50,22 @@ def main():
         if data_ready and st.session_state.get("_analysis_auto_run") is None:
             st.session_state["_analysis_auto_run"] = True
             with st.spinner("Running analysis (first load)..."):
-                import subprocess
-                result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR, timeout=120)
-            if result.returncode == 0:
+                ok, err = _run_analysis_in_process()
+            if ok:
                 st.rerun()
             else:
                 st.session_state["_analysis_auto_run"] = False
-                if result.stderr:
-                    st.error(result.stderr)
+                if err:
+                    st.error(err)
         if not os.path.exists(OUTPUT_DIR) or not os.path.exists(people_path):
             st.warning("No analysis output yet. Data files found: run analysis to generate `output/`." if data_ready else "No analysis output yet. Add Tracker and USA report Excel files, then run analysis.")
             if st.button("Run analysis now"):
-                import subprocess
-                result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR)
-                if result.returncode == 0:
+                ok, err = _run_analysis_in_process()
+                if ok:
                     st.success("Analysis complete. Refreshing...")
                     st.rerun()
                 else:
-                    st.error(result.stderr or "Analysis failed.")
+                    st.error(err or "Analysis failed.")
             return
 
     # Sidebar: Refresh data (run analysis so updates to Tracker/USA report show for everyone)
@@ -59,14 +75,13 @@ def main():
             mtime = os.path.getmtime(people_path)
             st.caption(f"Last updated: {datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M')}")
         if st.button("Refresh data (run analysis)", type="primary", use_container_width=True):
-            import subprocess
             with st.spinner("Running analysis..."):
-                result = subprocess.run(["python", "analysis.py"], capture_output=True, text=True, cwd=PROJECT_DIR, timeout=120)
-            if result.returncode == 0:
+                ok, err = _run_analysis_in_process()
+            if ok:
                 st.success("Done. Reloading...")
                 st.rerun()
             else:
-                st.error(result.stderr or "Analysis failed.")
+                st.error(err or "Analysis failed.")
         st.caption("Click after updating Tracker or USA report so everyone sees the latest data.")
 
     import pandas as pd
